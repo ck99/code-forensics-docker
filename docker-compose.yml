@@ -1,0 +1,16 @@
+version: "2.2"
+services:
+  analyzer:
+    ports:
+      - 3000:3000
+    volumes:
+      - ${REPOSITORY_ROOT}:/git
+      - outputDir:/output
+      - ./gulpfile.js:/app/gulpfile.js
+    build:
+      context: ./analyzer
+
+volumes:
+  outputDir: 
+    external:
+      name: ${OUTPUTDIR}
