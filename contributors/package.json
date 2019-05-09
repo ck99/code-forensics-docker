@@ -1,0 +1,15 @@
+{
+  "name": "contributors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rauschma/stringio": "^1.4.0",
+    "email-addresses": "^3.0.3"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "repository": {
+    "rootPath": "/git",
+    "includePaths":[],
+    "excludePaths":[]
+  },
+  "outputDir": "/output",
+  "contributors": {
+    "DevelopmentTeam": []
+  }
+}
